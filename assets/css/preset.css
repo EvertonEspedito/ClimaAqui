@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/back-desk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clear{
+    clear: both;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w25{
+    width: 25%;
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../img/back-mobile.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+}

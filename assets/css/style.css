@@ -1,0 +1,84 @@
+main{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 1rem;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+main input{
+    border: none;
+    outline: none;
+    padding: 0.475rem;
+    font-size: 19px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 70px);
+    border-radius: 1rem;
+}
+
+main button{
+    width: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5rem;
+    background-color: #7c7c7c2b;
+    float: right;
+}
+
+main .title{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 0.2rem;
+    color: white;
+    text-align: center;
+}
+
+.box-wraper{
+    margin-top: 1rem;
+}
+
+.box-wraper .cidade{
+    color: white;
+    font-size: 28;
+    font-weight: 300;
+}
+
+.box-wraper .tempo{
+    color: white;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.cloudP{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.cloudP p{
+    margin-left: 1rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: white;
+    margin-top: 1rem;
+}
+
+.v-box{
+    display: flex;
+    font-size: 14px;
+    color: white;
+    float: right;
+}
+
+.v-box a {
+    text-decoration: none;
+    color:#c7c6c67e;
+}
+
