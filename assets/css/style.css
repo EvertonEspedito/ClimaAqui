@@ -24,7 +24,7 @@ main button{
     outline: none;
     padding: 10px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 40%;
     background-color: #7c7c7c2b;
     float: right;
 }
